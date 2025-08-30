@@ -4,7 +4,13 @@
 \alias{create_hypothesis_table}
 \title{研究仮説テーブル用のプリセット（日英対応）}
 \usage{
-create_hypothesis_table(data, filename = "hypotheses", lang = "ja")
+create_hypothesis_table(
+  data,
+  filename = "hypotheses",
+  lang = "ja",
+  width = 1400,
+  height = 800
+)
 }
 \arguments{
 \item{data}{データフレーム}
@@ -12,6 +18,10 @@ create_hypothesis_table(data, filename = "hypotheses", lang = "ja")
 \item{filename}{出力ファイル名}
 
 \item{lang}{言語（"ja" または "en"）}
+
+\item{width}{画像幅（デフォルト: 1400）}
+
+\item{height}{画像高さ（デフォルト: 800）}
 }
 \description{
 研究仮説テーブル用のプリセット（日英対応）
