@@ -15,3 +15,5 @@ Imports:
     kableExtra,
     knitr,
     webshot2
+URL: https://github.com/xyslope/researchTables
+BugReports: https://github.com/xyslope/researchTables/issues
